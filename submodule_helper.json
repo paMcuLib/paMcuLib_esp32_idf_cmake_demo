@@ -1,0 +1,36 @@
+{
+    "root_folder": "./main/",
+    "submodules_structure": {
+        "paLibSubs": [
+            {
+                "used": 1,
+                "git": "https://hub.fastgit.org/paMcuLib/paMcuLibCoreHead.git",
+                "rename": "paCoreInc"
+            },
+            {
+                "used": 1,
+                "git": "https://hub.fastgit.org/paMcuLib/paMcuLibCore_Esp32.git",
+                "rename": "paCoreSrc"
+            }
+        ],
+        "paLibSubs/paMods/display": [
+            {
+                "used": 1,
+                "rename": "SSD1306",
+                "git": "https://hub.fastgit.org/paMcuLib/ssd1306_paMcuLib.git"
+            },
+            {
+                "used": 1,
+                "rename": "ILI9341",
+                "git": "https://hub.fastgit.org/paMcuLib/ili9341_paMcuLib.git"
+            }
+        ],
+        "paLibSubs/paMods/input": [
+            {
+                "used": 1,
+                "rename": "xpt2046",
+                "git": "https://hub.fastgit.org/paMcuLib/xpt2046_paMcuLib.git"
+            }
+        ]
+    }
+}

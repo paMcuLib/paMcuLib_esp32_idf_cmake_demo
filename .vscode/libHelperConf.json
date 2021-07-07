@@ -1,0 +1,7 @@
+{
+    "libConfFilePath": "./main/AutoGenHeaders",
+    "defaultConfFileName": "AllConfig.h",
+    "libSrcPath": "main",
+    "describeFileFolderName": "",
+    "describeFileName": "describe.txt"
+}
