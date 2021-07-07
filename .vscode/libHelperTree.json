@@ -1,5 +1,16 @@
 {
+    "DemoConfig": {
+        "header=DemoConfig": "Only Use For Gen Header,Don't change",
+        "Demo_ILI9341": "1",
+        "Demo_SSD1306": "0"
+    },
     "paLibSubs": {
+        "paCoreSrc": {
+            "header=Conf_platform.h": "Only Use For Gen Header,Don't change",
+            "PLATFORM_ESP32": "0",
+            "PLATFORM_ESP32_S2": "1",
+            "PLATFORM_ESP32_C3": "0"
+        },
         "paMods": {
             "display": {
                 "ILI9341": {
@@ -9,17 +20,6 @@
                     "Conf_ILI9341_RST": "GPIO_NUM_8"
                 }
             }
-        },
-        "paCoreSrc": {
-            "header=Conf_platform.h": "Only Use For Gen Header,Don't change",
-            "PLATFORM_ESP32": "0",
-            "PLATFORM_ESP32_S2": "1",
-            "PLATFORM_ESP32_C3": "0"
         }
-    },
-    "DemoConfig": {
-        "header=DemoConfig": "Only Use For Gen Header,Don't change",
-        "Demo_ILI9341": "1",
-        "Demo_SSD1306": "0"
     }
 }
