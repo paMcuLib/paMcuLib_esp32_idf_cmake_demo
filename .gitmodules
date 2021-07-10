@@ -4,9 +4,7 @@
 	path = main/paLibSubs/paCoreSrc
 	url = https://hub.fastgit.org/paMcuLib/paMcuLibCore_Esp32.git
 
-[submodule "main/paLibSubs/paMods/display/SSD1306"]
-	path = main/paLibSubs/paMods/display/SSD1306
-	url = https://hub.fastgit.org/paMcuLib/ssd1306_paMcuLib.git
+
 [submodule "main/paLibSubs/paMods/display/ILI9341"]
 	path = main/paLibSubs/paMods/display/ILI9341
 	url = https://hub.fastgit.org/paMcuLib/ili9341_paMcuLib.git
@@ -16,3 +14,9 @@
 [submodule "main/paLibSubs/paCoreInc"]
 	path = main/paLibSubs/paCoreInc
 	url = https://hub.fastgit.org/paMcuLib/paMcuLibCoreHead.git
+[submodule "main/paLibSubs/paMods/display/u8g2"]
+	path = main/paLibSubs/paMods/display/u8g2
+	url = https://hub.fastgit.org/paMcuLib/u8g2_paMcuLib.git
+[submodule "main/paLibSubs/paMods/display/lvgl"]
+	path = main/paLibSubs/paMods/display/lvgl
+	url = https://hub.fastgit.org/paMcuLib/lvgl_paMcuLib.git

@@ -1,3 +1,0 @@
-header=DemoConfig
-Demo_ILI9341|0
-Demo_SSD1306|0
