@@ -32,6 +32,7 @@ void mainAppEntry()
     // Talk::init();
     // _G_paIIC.init(0);
     _G_paSPI.init(0);
+    _G_paBase.delayMs(10);
     appVar.lcd.init(0, pa_ILI9341::Rotation_HORIZONTAL_1);
 
     // _G_paGPIO.init(N_paGPIO::Mode_Output, RobotArm_GPIO_En0);
@@ -41,7 +42,7 @@ void mainAppEntry()
     int helloCnt = 0;
     while (1)
     {
-
+        _G_paBase.output("hello world\r\n");
         _G_paBase.delayMs(2);
         // vTaskDelay(CONFIG_BLINK_PERIOD / portTICK_PERIOD_MS);
     }

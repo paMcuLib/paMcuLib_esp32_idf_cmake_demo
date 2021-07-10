@@ -1,6 +1,6 @@
 #include "Talk.h"
 #include "MQTT_impl.h"
-#include "MainAppVar.h"
+// #include "MainAppVar.h"
 namespace Talk
 {
     paErr init()
