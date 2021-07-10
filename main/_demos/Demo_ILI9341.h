@@ -42,7 +42,10 @@ void mainAppEntry()
     int helloCnt = 0;
     while (1)
     {
+        appVar.lcd.flush(0, 0, 200, 200, 0x00ff);
         _G_paBase.output("hello world\r\n");
+        _G_paBase.delayMs(2);
+        appVar.lcd.flush(0, 0, 200, 200, 0xff00);
         _G_paBase.delayMs(2);
         // vTaskDelay(CONFIG_BLINK_PERIOD / portTICK_PERIOD_MS);
     }
