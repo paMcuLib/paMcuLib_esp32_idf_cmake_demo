@@ -31,7 +31,10 @@
     "ostream": "cpp",
     "xstring": "cpp",
     "xutility": "cpp",
-    "all": "cpp"
+    "all": "cpp",
+    "config_lvgl": "cpp",
+    "lv_log.h": "c",
+    "lv_conf_internal.h": "c"
   },
   "idf.toolsPathWin": "C:\\Users\\sjjmw\\.espressif",
   "idf.gitPath": "C:\\Users\\sjjmw\\.espressif\\tools\\idf-git\\cmd\\git.exe"
